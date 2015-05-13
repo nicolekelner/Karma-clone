@@ -58,15 +58,15 @@ summary {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 body {
-    background-color: LightGray;
+ /*   background-color: LightGray;*/
     font-family: 'Roboto', sans-serif; 
 font-size: 16px; 
 color: #838994; 
 letter-spacing: 0.03em;
 }
-div {
+/*div {
     border: 1px solid Chocolate;
-}
+}*/
 
 
 .top-navigation{background-color: #fff;
@@ -140,6 +140,12 @@ margin-left:25px;}
 color:white;
 }
 
+.divide {width: 50%;
+  height: 1px;
+  background-color: #979797;
+  margin: auto;
+;}
+
 .content > h1 {font-size: 3em;}
 .big-button {
     text-shadow: none;
@@ -177,7 +183,7 @@ video {
 .social hr {
     border: 0;
     border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+ 
 }
 
 .social .icons > li {
@@ -189,6 +195,7 @@ video {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+    
 }
 
 .icons {display: inline-block;
