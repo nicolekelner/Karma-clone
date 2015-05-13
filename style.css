@@ -166,6 +166,10 @@ video {
   vertical-align: baseline; /* 2 */
 }
 
+.icons{border-radius: 5px;}
+.icons {display: inline-block;
+margin: 0 auto;
+}
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
