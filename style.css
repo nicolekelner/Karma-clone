@@ -50,6 +50,19 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+.top-navigation{background-color: #fff;}
+
+.top-navigation > .content {width: 970px;
+  height: 70px;
+  margin: 0 auto;
+}
 
 audio,
 canvas,
