@@ -130,7 +130,7 @@ margin-left:25px;}
   background-size: cover;
   height: 45.938rem;
   background-position: 0 bottom;
-  padding-top: 200px;
+  padding-top: 19rem;
  
   text-align: center;
 
@@ -153,6 +153,11 @@ color:white;
 
 .introduction > .content {margin:auto;}
 
+.content > .devices > li {display:inline-block;
+margin: 0 auto;}
+
+.cases > .content {text-align: center;
+margin-top:7rem;}
 audio,
 canvas,
 progress,
